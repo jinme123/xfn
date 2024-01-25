@@ -6,9 +6,9 @@ VMESS_WSPATH='/vmess'
 VLESS_WSPATH='/vless'
 TROJAN_WSPATH='/trojan'
 SS_WSPATH='/shadowsocks'
-NEZHA_SERVER="agt.blackcup.tk"
-NEZHA_PORT=6344
-NEZHA_KEY="U8rbfPeObflyRYwJui"
+NEZHA_SERVER=""
+NEZHA_PORT=
+NEZHA_KEY=""
 
 generate_config() {
   cat > config.json << EOF
